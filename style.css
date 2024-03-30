@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: #F6F6F6;
+}
+
+strong{
+    color: #8E16F0;
+}
+
+a{
+    background-color: #22D4FD;
+    color: black;
+    border-radius: 16px;
+    border: #22D4FD solid;
+    width: 280px;
+    height: 79px;
+    padding: 10px;
+}
+
+img{
+    width: 488px;
+    height: 550px;
+}
+footer{
+    padding-top: 20px;
+}

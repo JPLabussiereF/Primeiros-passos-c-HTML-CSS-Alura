@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre João Labussiere</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="assets\styles\style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="experience.html">Experiências</a>
+        </nav>
+    </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -16,15 +22,28 @@
             desenvolvedor Front-end. Estou estudando JS, HTML e CSS. Penso em ajudar pequenos negócios e designers a colocarem em prática boas ideias.
             Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-labussiere-fran%C3%A7a-550937282/" target="_blank">Linkedin</a>
-                <a class="apresentacao__links__link" href="https://github.com/JPLabussiereF" target="_blank">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes: </h2>
+                <a style="--clr:#8E16F0" class="apresentacao__links__link" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-labussiere-fran%C3%A7a-550937282/" target="_blank">
+                    <span>
+                        <img src="assets\image\linkedin.png" alt="Logotipo do Linkedin">
+                        Linkedin
+                    </span>
+                        </a>
+                        <a style="--clr:#8E16F0" class="apresentacao__links__link" href="https://github.com/JPLabussiereF" target="_blank">
+                    <span>
+                        <img src="assets\image\github.png" alt="Logotipo do GitHub">
+                        GitHub
+                    </span>
+                </a>
             </div>
         </section>
             <div class="apresentacao__img">
-                <img src="EuPorGati2.0.svg" alt="Uma foto minha">
+                <img src="assets\image\EuPorGati2.0.svg" alt="Uma foto minha">
             </div>
     </main>
 
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por João Pedro Labussiere</p>
+    </footer>
 </body>
 </html>
